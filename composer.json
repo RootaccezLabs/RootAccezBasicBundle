@@ -1,0 +1,21 @@
+{
+    "name": "rootaccez/basic-bundle",
+    "type": "symfony-bundle",
+    "description": "RootAccez BasicBundle",
+    "homepage": "http://code-cocktail.in",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gowri Sankar",
+            "email": "gchokeen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.*"
+    },
+    "autoload": {
+        "psr-0": { "RootAccez\\BasicBundle": "" }
+    },
+    "target-dir": "RootAccez/BasicBundle"
+}
