@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.*"
+        "php": ">=5.*",
+        "gedmo/doctrine-extensions":"2.3.*"
     },
     "autoload": {
         "psr-0": { "RootAccez\\BasicBundle": "" }
