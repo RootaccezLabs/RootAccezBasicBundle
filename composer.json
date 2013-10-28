@@ -16,7 +16,6 @@
         "gedmo/doctrine-extensions":"2.3.*"
     },
     "autoload": {
-        "psr-0": { "RootAccez\\BasicBundle": "" }
-    },
-    "target-dir": "RootAccez/BasicBundle"
+        "psr-0": { "RootAccez\\": "src/" }
+    }
 }
