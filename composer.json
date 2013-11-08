@@ -12,8 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.*",
-        "gedmo/doctrine-extensions":"2.3.*"
+        "php": ">=5.3.2",
+        "gedmo/doctrine-extensions":"*"
     },
     "autoload": {
         "psr-0": { "RootAccez\\": "src/" }
