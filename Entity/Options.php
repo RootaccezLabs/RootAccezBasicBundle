@@ -11,7 +11,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @ORM\Table(name="options")
  * @ORM\Entity(repositoryClass="RootAccez\BasicBundle\Entity\OptionsRepository")
  */
-class Phone
+class Options
 {
     /**
      * @ORM\Id
@@ -52,4 +52,106 @@ class Phone
 
     }    
 
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set optionName
+     *
+     * @param string $optionName
+     * @return Options
+     */
+    public function setOptionName($optionName)
+    {
+        $this->optionName = $optionName;
+    
+        return $this;
+    }
+
+    /**
+     * Get optionName
+     *
+     * @return string 
+     */
+    public function getOptionName()
+    {
+        return $this->optionName;
+    }
+
+    /**
+     * Set optionValue
+     *
+     * @param string $optionValue
+     * @return Options
+     */
+    public function setOptionValue($optionValue)
+    {
+        $this->optionValue = $optionValue;
+    
+        return $this;
+    }
+
+    /**
+     * Get optionValue
+     *
+     * @return string 
+     */
+    public function getOptionValue()
+    {
+        return $this->optionValue;
+    }
+
+    /**
+     * Set created
+     *
+     * @param \DateTime $created
+     * @return Options
+     */
+    public function setCreated($created)
+    {
+        $this->created = $created;
+    
+        return $this;
+    }
+
+    /**
+     * Get created
+     *
+     * @return \DateTime 
+     */
+    public function getCreated()
+    {
+        return $this->created;
+    }
+
+    /**
+     * Set updated
+     *
+     * @param \DateTime $updated
+     * @return Options
+     */
+    public function setUpdated($updated)
+    {
+        $this->updated = $updated;
+    
+        return $this;
+    }
+
+    /**
+     * Get updated
+     *
+     * @return \DateTime 
+     */
+    public function getUpdated()
+    {
+        return $this->updated;
+    }
 }
